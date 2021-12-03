@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mac-book-pro</title>
+    <!-- bootstrap stylesheet -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+
+<body>
+    <!-- mac book pro section start -->
+    <section>
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col-md-5">
+                    <img src="images/mac.png" alt="" class="img-fluid">
+                </div>
+                <div class="col-md-7">
+                    <h1 class="display-5 fw-normal">Customize your Blue 24‑inch iMac with Apple M1 chip.</h1>
+                    <p class="mb-5 fs-5">Apple M1 chip with 8-core CPU with 4 performance cores and 4 efficiency cores,
+                        7-core GPU, an 16-core Neural Engine 8GB unified memory 256GB SSD storage Two Thunderbolt / USB
+                        4 ports Magic Mouse Magic Keyboard - US English</p>
+                    <p class="fs-4 fw-bold">Memory</p>
+                    <div class="gap-2 d-grid d-md-block">
+                        <button class="btn btn-outline-primary btn-lg" type="button" id="memory-btn-8gb">8GB unified
+                            memory</button>
+                        <button class="btn btn-outline-primary btn-lg" type="button" id="memory-btn-16gb">16GB unified
+                            memory</button>
+                    </div>
+                    <p class="mt-5 fs-4 fw-bold">Storage</p>
+                    <div class="gap-2 d-grid d-md-block">
+                        <button class="btn btn-outline-secondary btn-lg" type="button" id="storage-btn-256gb">256GB SSD storage</button>
+                        <button class="btn btn-outline-secondary btn-lg" type="button" id="storage-btn-512gb">512GB SSD storage</button>
+                        <button class="btn btn-outline-secondary btn-lg" type="button" id="storage-btn-1tb">1TB SSD storage</button>
+                    </div>
+                    <p class="mt-5 fs-4 fw-bold">Choose your delivery option</p>
+                    <div class="gap-2 d-grid d-md-block">
+                        <button class="btn btn-outline-success btn-lg" type="button" id="primary-delivery">Friday, Aug 25 FREE Primary
+                            Delivery </button>
+                        <button class="btn btn-outline-success btn-lg" type="button" id="secondary-delivery">Friday, Aug 21 Delivery Charge
+                            $20</button>
+                    </div>
+                    <table class="table mt-5 w-50">
+                        <tbody>
+                            <tr>
+                                <td scope="col" class="fs-5 fw-bold">Best Price</td>
+                                <td scope="col" class="fs-5 fw-bold">$<span id="best-price">1299</span></td>
+                            </tr>
+                            <tr>
+                                <td class="fs-5 fw-bold">Extra Memory Cost</td>
+                                <td class="fs-5 fw-bold">$<span id="memory-cost">0</span></td>
+                            </tr>
+                            <tr>
+                                <td class="fs-5 fw-bold">Extra Storage Cost</td>
+                                <td class="fs-5 fw-bold">$<span id="storage-cost">0</span></td>
+                            </tr>
+                            <tr>
+                                <td class="fs-5 fw-bold">Delivery Charge</td>
+                                <td class="fs-5 fw-bold">$<span id="delivery-cost">0</span></td>
+                            </tr>
+                        </tbody>
+                            <tr>
+                                <td scope="col" class="fs-5 fw-bold">Total Price</td>
+                                <td scope="col" class="fs-5 fw-bold">$<span id="total-price">1299</span></td>
+                            </tr>
+                    </table>
+                    <p class="fw-bold fs-6">Add Promo Code</p>
+                    <div class="mb-3 input-group w-50">
+                        <input type="text" class="form-control" aria-label="Recipient's username" aria-describedby="button-addon2" id="input-value">
+                        <button class="btn btn-danger" type="button" id="button-addon2">Apply</button>
+                    </div>
+                </div>
+                <hr>
+                <h1 class="mb-5 text-center">Total: $<span id="total">1299</span></h1>
+            </div>
+        </div>
+    </section>
+    
+    <!-- local js script -->
+    <script src="js/app.js"></script>
+</body>
+
+</html>
